@@ -40,7 +40,7 @@ for (const pattern of ["0 0 0 L 2 *", "1 2 3 4 5 6", "*/3 */3 */3 * * *", "0 0 0
             result = { id: scheduler.id, scheduler: scheduler.interface };
         try {
             job.init();
-            result.result = new Date(job.next()).toLocaleString();
+            result.result = formatDateString(new Date(job.next()));
             job.stop();
         } catch (e) {
             result.result = undefined;
@@ -107,3 +107,14 @@ for(const report in summary) {
   console.log("| " + report + " | " + summary[report].ok + " | " + summary[report].fail + " | " + (summary[report].ok / Math.round((summary[report].ok + summary[report].fail))*100) + "% |" );
 }
 console.log("");
+
+function formatDateString(date) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  const hours = String(date.getHours()).padStart(2, "0");
+  const minutes = String(date.getMinutes()).padStart(2, "0");
+  const seconds = String(date.getSeconds()).padStart(2, "0");
+
+  return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+}
