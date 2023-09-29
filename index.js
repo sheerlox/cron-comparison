@@ -1,5 +1,7 @@
 import Benchmark from "benchmark";
 
+import PackageJSON from "./package.json" assert { type: "json" };
+
 import Cron from "./interfaces/cron.cjs";
 import Croner from "./interfaces/croner.js";
 import CronosJS from "./interfaces/cronosjs.js";
@@ -13,7 +15,11 @@ const summary = {},
 
 console.log("Tested libraries:\n");
 for (const scheduler of subjects) {
-  console.log(`- [${scheduler.id}](${scheduler.url})`);
+  console.log(
+    `- [${scheduler.id}](${scheduler.url}) \`v${
+      PackageJSON.dependencies[scheduler.id]
+    }\``,
+  );
 }
 
 for (const pattern of [
