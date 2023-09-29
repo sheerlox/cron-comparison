@@ -14,7 +14,8 @@
       "groupSlug": "benchmarked-libs",
       "semanticCommitType": "fix",
       "semanticCommitScope": "libs",
-      "addLabels": ["libs"]
+      "addLabels": ["libs"],
+      "rangeStrategy": "pin"
     }
   ]
 }
