@@ -1,22 +1,15 @@
-// Prepare require for modules who require it...
-import { createRequire } from "node:module";
-const require = createRequire(import.meta.url);
+import Benchmark from "benchmark";
 
-// Prepare benchmark
-var Benchmark = require("benchmark");
-
-// Commonjs modules
-const NodeSchedule = require("./interfaces/node-schedule.cjs");
-const Cron = require("./interfaces/cron.cjs");
-const NodeCron = require("./interfaces/nodecron.cjs");
-
-// ES modules
+import Cron from "./interfaces/cron.cjs";
 import Croner from "./interfaces/croner.js";
 import CronosJS from "./interfaces/cronosjs.js";
+import NodeCron from "./interfaces/node-cron.cjs";
+import NodeSchedule from "./interfaces/node-schedule.cjs";
 
 console.log("Tests performed at " + new Date().toISOString() + "\n");
+
 const summary = {},
-  subjects = [Croner, NodeCron, NodeSchedule, CronosJS, Cron];
+  subjects = [Cron, Croner, CronosJS, NodeCron, NodeSchedule];
 
 console.log("Tested libraries:\n");
 for (const scheduler of subjects) {
