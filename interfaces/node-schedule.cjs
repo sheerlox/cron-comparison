@@ -5,9 +5,6 @@ function CronInterface(pattern, options, fn) {
   return {
     init: () => (job = schedule.scheduleJob(pattern, fn ?? (() => {}))),
     next: () => job.nextInvocation(),
-    enumerate: () => {
-      throw new Error("Not suppported");
-    },
     stop: () => job.cancel(),
   };
 }

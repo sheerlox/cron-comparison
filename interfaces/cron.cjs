@@ -5,7 +5,6 @@ function CronInterface(pattern, options, fn) {
   return {
     init: () => (job = new cron.CronJob(pattern, fn ?? (() => {}))),
     next: () => job.nextDates(),
-    enumerate: (n) => job.nextDates(n),
     stop: () => {},
   };
 }

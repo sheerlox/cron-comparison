@@ -9,7 +9,6 @@ function CronInterface(pattern, options, fn) {
     next: () => {
       return null;
     },
-    enumerate: (n) => {},
     stop: () => {
       job?.stop && job.stop();
     },
