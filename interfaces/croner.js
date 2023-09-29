@@ -4,7 +4,7 @@ function CronInterface(pattern, options, fn) {
   let job;
   return {
     init: () => (job = new Cron(pattern, options)),
-    next: () => job.next(),
+    next: () => job.nextRun(),
     stop: () => {},
   };
 }
