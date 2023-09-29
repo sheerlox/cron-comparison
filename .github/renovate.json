@@ -1,0 +1,19 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>insurgent-lab/.github//renovate/base"],
+  "packageRules": [
+    {
+      "matchPackagePatterns": [
+        "cron",
+        "croner",
+        "cronosjs",
+        "node-cron",
+        "node-schedule"
+      ],
+      "groupName": "Benchmarked Libs",
+      "groupSlug": "benchmarked-libs",
+      "semanticCommitType": "fix",
+      "semanticCommitScope": "libs"
+    }
+  ]
+}
