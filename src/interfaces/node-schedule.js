@@ -1,4 +1,4 @@
-const schedule = require("node-schedule");
+import schedule from "node-schedule";
 
 function CronInterface(pattern, options, fn) {
   let job;
@@ -9,7 +9,7 @@ function CronInterface(pattern, options, fn) {
   };
 }
 
-module.exports = {
+export default {
   id: "node-schedule",
   url: "https://github.com/node-schedule/node-schedule",
   interface: CronInterface,

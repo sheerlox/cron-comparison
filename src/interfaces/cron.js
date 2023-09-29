@@ -1,4 +1,4 @@
-const cron = require("cron");
+import cron from "cron";
 
 function CronInterface(pattern, options, fn) {
   let job;
@@ -9,7 +9,7 @@ function CronInterface(pattern, options, fn) {
   };
 }
 
-module.exports = {
+export default {
   id: "cron",
   url: "https://github.com/kelektiv/node-cron",
   interface: CronInterface,

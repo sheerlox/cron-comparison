@@ -1,10 +1,10 @@
 import PackageJSON from "../../package.json" assert { type: "json" };
 
-import Cron from "./cron.cjs";
+import Cron from "./cron.js";
 import Croner from "./croner.js";
 import CronosJS from "./cronosjs.js";
-import NodeCron from "./node-cron.cjs";
-import NodeSchedule from "./node-schedule.cjs";
+import NodeCron from "./node-cron.js";
+import NodeSchedule from "./node-schedule.js";
 
 const subjects = [Cron, Croner, CronosJS, NodeCron, NodeSchedule];
 
