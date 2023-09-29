@@ -21,15 +21,15 @@
     "node-schedule": "^2.1.1"
   },
   "devDependencies": {
-    "@insurgentlab/conventional-changelog-preset": "^6.0.4",
-    "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/commit-analyzer": "^10.0.4",
-    "@semantic-release/exec": "^6.0.3",
-    "@semantic-release/git": "^10.0.1",
-    "husky": "^8.0.3",
-    "lint-staged": "^14.0.1",
+    "@insurgentlab/conventional-changelog-preset": "6.0.4",
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/commit-analyzer": "10.0.4",
+    "@semantic-release/exec": "6.0.3",
+    "@semantic-release/git": "10.0.1",
+    "husky": "8.0.3",
+    "lint-staged": "14.0.1",
     "prettier": "3.0.3",
-    "semantic-release": "^21.1.2"
+    "semantic-release": "21.1.2"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
