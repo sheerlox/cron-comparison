@@ -12,6 +12,10 @@ Run tests and update readme with results
 
 `npm run update-readme`
 
+## Credits
+
+This repository was originaly forked from [Hexagon/cron-comparison](https://github.com/Hexagon/cron-comparison)@[`57132f7`](https://github.com/Hexagon/cron-comparison/commit/57132f73323630ac2bc5d1022189b07be08ac773) on 2023-09-29.
+
 ## Latest results
 
 > cron-comparison@1.0.1 test
