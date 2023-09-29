@@ -6,8 +6,9 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "node --no-warnings index.js",
-    "update-readme": "(cp README.template README.md || copy README.template README.md) && npm run test >> README.md",
+    "benchmark": "node --no-warnings src/benchmark.js",
+    "update-readme": "(cp README.template README.md || copy README.template README.md) && npm run benchmark >> README.md",
+    "test": "node src/test.js",
     "prepare": "husky install"
   },
   "author": "",

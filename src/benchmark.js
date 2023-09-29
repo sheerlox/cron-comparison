@@ -1,24 +1,15 @@
 import Benchmark from "benchmark";
 
-import PackageJSON from "./package.json" assert { type: "json" };
+import schedulers from "./interfaces/index.js";
 
-import Cron from "./interfaces/cron.cjs";
-import Croner from "./interfaces/croner.js";
-import CronosJS from "./interfaces/cronosjs.js";
-import NodeCron from "./interfaces/node-cron.cjs";
-import NodeSchedule from "./interfaces/node-schedule.cjs";
+const summary = {};
 
 console.log("Tests performed at " + new Date().toISOString() + "\n");
 
-const summary = {},
-  subjects = [Cron, Croner, CronosJS, NodeCron, NodeSchedule];
-
 console.log("Tested libraries:\n");
-for (const scheduler of subjects) {
+for (const scheduler of schedulers) {
   console.log(
-    `- [${scheduler.id}](${scheduler.url}) \`v${
-      PackageJSON.dependencies[scheduler.id]
-    }\``,
+    `- [${scheduler.id}](${scheduler.url}) \`v${scheduler.version}\``,
   );
 }
 
@@ -40,7 +31,7 @@ for (const pattern of [
 
   let reports = [];
 
-  for (const scheduler of subjects) {
+  for (const scheduler of schedulers) {
     let job = new scheduler.interface(pattern),
       result = { id: scheduler.id, scheduler: scheduler.interface };
     try {
