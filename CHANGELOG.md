@@ -1,3 +1,19 @@
+## [1.2.0](https://github.com/sheerlox/cron-comparison/compare/v1.1.1...v1.2.0) (2023-09-29)
+
+### ✨ Features
+
+- add librairies version numbers to results ([f2bd722](https://github.com/sheerlox/cron-comparison/commit/f2bd722c18dfafb34fa2c7ded943cec1831ae391))
+- sort librairies alphabetically ([a902978](https://github.com/sheerlox/cron-comparison/commit/a9029785fd935e69215ff80339a482f647f81519))
+
+### 🐛 Bug Fixes
+
+- fix best count increment ([fa354f8](https://github.com/sheerlox/cron-comparison/commit/fa354f85b956c0dcd757d3797c8e298cceb24b7a))
+
+### 📦 Code Refactoring
+
+- centralize test subjects loading ([f97c93e](https://github.com/sheerlox/cron-comparison/commit/f97c93e59857eeeff99950e608e4c16b354f1130))
+- use ES syntax for every module ([8bda71a](https://github.com/sheerlox/cron-comparison/commit/8bda71a9a5d57e068634f9303e20a9cf4edfb710))
+
 ## [1.1.1](https://github.com/sheerlox/cron-comparison/compare/v1.1.0...v1.1.1) (2023-09-29)
 
 ### 🐛 Bug Fixes
