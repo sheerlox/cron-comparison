@@ -18,10 +18,10 @@ This repository was originaly forked from [Hexagon/cron-comparison](https://gith
 
 ## Latest results
 
-> cron-comparison@1.0.2 test
+> cron-comparison@1.1.0 test
 > node index.js
 
-Tests performed at 2023-09-29T16:24:53.338Z
+Tests performed at 2023-09-29T18:31:38.017Z
 
 Tested libraries:
 
@@ -44,9 +44,9 @@ cron            - FAIL  - Error: Unknown alias: l
 
 Benchmark (only OK)
 
-croner          x 168,180 ops/sec ±1.41% (90 runs sampled)
-node-schedule   x 390 ops/sec ±2.56% (84 runs sampled)
-cronosjs        x 68,692 ops/sec ±1.11% (93 runs sampled)
+croner          x 107,590 ops/sec ±0.72% (93 runs sampled)
+node-schedule   x 253 ops/sec ±0.87% (85 runs sampled)
+cronosjs        x 47,814 ops/sec ±6.80% (91 runs sampled)
 
 Fastest is croner
 ```
@@ -57,16 +57,16 @@ Fastest is croner
 Tests
 
 croner          - OK    - 2024-05-04 03:02:01
-node-cron       - FAIL  - 1970-01-01 01:00:00
+node-cron       - FAIL  - 1970-01-01 00:00:00
 node-schedule   - OK    - 2024-05-04 03:02:01
 cronosjs        - OK    - 2024-05-04 03:02:01
 cron            - FAIL  - 2024-06-01 03:02:01
 
 Benchmark (only OK)
 
-croner          x 208,991 ops/sec ±1.42% (98 runs sampled)
-node-schedule   x 3,190 ops/sec ±1.52% (88 runs sampled)
-cronosjs        x 58,025 ops/sec ±1.28% (95 runs sampled)
+croner          x 132,506 ops/sec ±0.60% (90 runs sampled)
+node-schedule   x 1,988 ops/sec ±1.06% (93 runs sampled)
+cronosjs        x 40,507 ops/sec ±3.17% (95 runs sampled)
 
 Fastest is croner
 ```
@@ -76,18 +76,18 @@ Fastest is croner
 ```
 Tests
 
-croner          - OK    - 2023-09-29 18:27:00
-node-cron       - FAIL  - 1970-01-01 01:00:00
-node-schedule   - OK    - 2023-09-29 18:27:00
-cronosjs        - OK    - 2023-09-29 18:27:00
-cron            - OK    - 2023-09-29 18:27:00
+croner          - OK    - 2023-09-29 18:33:00
+node-cron       - FAIL  - 1970-01-01 00:00:00
+node-schedule   - OK    - 2023-09-29 18:33:00
+cronosjs        - OK    - 2023-09-29 18:33:00
+cron            - OK    - 2023-09-29 18:33:00
 
 Benchmark (only OK)
 
-croner          x 196,606 ops/sec ±0.56% (95 runs sampled)
-node-schedule   x 21,540 ops/sec ±1.22% (96 runs sampled)
-cronosjs        x 37,073 ops/sec ±2.19% (93 runs sampled)
-cron            x 30,742 ops/sec ±1.25% (90 runs sampled)
+croner          x 127,430 ops/sec ±0.44% (97 runs sampled)
+node-schedule   x 16,919 ops/sec ±1.90% (92 runs sampled)
+cronosjs        x 25,207 ops/sec ±0.40% (93 runs sampled)
+cron            x 24,352 ops/sec ±0.80% (93 runs sampled)
 
 Fastest is croner
 ```
@@ -98,16 +98,16 @@ Fastest is croner
 Tests
 
 croner          - OK    - 2024-02-05 00:00:00
-node-cron       - FAIL  - 1970-01-01 01:00:00
+node-cron       - FAIL  - 1970-01-01 00:00:00
 node-schedule   - OK    - 2024-02-05 00:00:00
 cronosjs        - OK    - 2024-02-05 00:00:00
 cron            - FAIL  - 2024-03-04 00:00:00
 
 Benchmark (only OK)
 
-croner          x 205,378 ops/sec ±1.35% (90 runs sampled)
-node-schedule   x 5,478 ops/sec ±1.83% (85 runs sampled)
-cronosjs        x 57,231 ops/sec ±1.54% (91 runs sampled)
+croner          x 145,690 ops/sec ±0.22% (94 runs sampled)
+node-schedule   x 3,684 ops/sec ±1.18% (95 runs sampled)
+cronosjs        x 40,826 ops/sec ±0.26% (93 runs sampled)
 
 Fastest is croner
 ```
@@ -118,16 +118,16 @@ Fastest is croner
 Tests
 
 croner          - OK    - 2024-02-29 00:00:00
-node-cron       - FAIL  - 1970-01-01 01:00:00
+node-cron       - FAIL  - 1970-01-01 00:00:00
 node-schedule   - OK    - 2024-02-29 00:00:00
 cronosjs        - OK    - 2024-02-29 00:00:00
 cron            - FAIL  - 2024-03-29 00:00:00
 
 Benchmark (only OK)
 
-croner          x 204,559 ops/sec ±0.87% (94 runs sampled)
-node-schedule   x 743 ops/sec ±1.13% (91 runs sampled)
-cronosjs        x 61,924 ops/sec ±1.17% (91 runs sampled)
+croner          x 129,405 ops/sec ±0.98% (98 runs sampled)
+node-schedule   x 480 ops/sec ±1.35% (92 runs sampled)
+cronosjs        x 48,387 ops/sec ±0.15% (97 runs sampled)
 
 Fastest is croner
 ```
@@ -138,17 +138,17 @@ Fastest is croner
 Tests
 
 croner          - OK    - 2023-09-29 21:15:15
-node-cron       - FAIL  - 1970-01-01 01:00:00
+node-cron       - FAIL  - 1970-01-01 00:00:00
 node-schedule   - OK    - 2023-09-29 21:15:15
 cronosjs        - OK    - 2023-09-29 21:15:15
 cron            - OK    - 2023-09-29 21:15:15
 
 Benchmark (only OK)
 
-croner          x 180,738 ops/sec ±1.17% (96 runs sampled)
-node-schedule   x 1,335 ops/sec ±1.36% (90 runs sampled)
-cronosjs        x 41,657 ops/sec ±1.82% (89 runs sampled)
-cron            x 2,666 ops/sec ±1.48% (90 runs sampled)
+croner          x 117,602 ops/sec ±0.13% (95 runs sampled)
+node-schedule   x 960 ops/sec ±0.88% (94 runs sampled)
+cronosjs        x 29,845 ops/sec ±0.17% (95 runs sampled)
+cron            x 1,928 ops/sec ±1.20% (93 runs sampled)
 
 Fastest is croner
 ```
@@ -159,16 +159,16 @@ Fastest is croner
 Tests
 
 croner          - OK    - 2023-10-01 00:15:15
-node-cron       - FAIL  - 1970-01-01 01:00:00
+node-cron       - FAIL  - 1970-01-01 00:00:00
 node-schedule   - OK    - 2023-10-01 00:15:15
 cronosjs        - OK    - 2023-10-01 00:15:15
 cron            - FAIL  - 2023-11-01 00:15:15
 
 Benchmark (only OK)
 
-croner          x 191,752 ops/sec ±1.79% (89 runs sampled)
-node-schedule   x 3,218 ops/sec ±0.94% (96 runs sampled)
-cronosjs        x 56,088 ops/sec ±0.78% (93 runs sampled)
+croner          x 126,848 ops/sec ±0.53% (97 runs sampled)
+node-schedule   x 1,981 ops/sec ±0.90% (94 runs sampled)
+cronosjs        x 41,474 ops/sec ±0.18% (99 runs sampled)
 
 Fastest is croner
 ```
@@ -179,16 +179,16 @@ Fastest is croner
 Tests
 
 croner          - OK    - 2023-10-01 00:15:15
-node-cron       - FAIL  - 1970-01-01 01:00:00
+node-cron       - FAIL  - 1970-01-01 00:00:00
 node-schedule   - OK    - 2023-10-01 00:15:15
 cronosjs        - OK    - 2023-10-01 00:15:15
 cron            - FAIL  - 2023-11-05 00:15:15
 
 Benchmark (only OK)
 
-croner          x 142,944 ops/sec ±2.42% (88 runs sampled)
-node-schedule   x 2,936 ops/sec ±0.78% (95 runs sampled)
-cronosjs        x 45,359 ops/sec ±0.66% (95 runs sampled)
+croner          x 101,699 ops/sec ±0.49% (93 runs sampled)
+node-schedule   x 1,805 ops/sec ±1.36% (92 runs sampled)
+cronosjs        x 31,055 ops/sec ±0.10% (98 runs sampled)
 
 Fastest is croner
 ```
