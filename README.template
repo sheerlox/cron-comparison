@@ -1,0 +1,15 @@
+# cron-comparison
+
+Test and benchmark of all javascript cron implementations
+
+## Running
+
+Run tests and show output in console
+
+`npm run test`
+
+Run tests and update readme with results
+
+`npm run update-readme`
+
+## Latest results
