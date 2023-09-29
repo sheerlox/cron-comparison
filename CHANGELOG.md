@@ -1,3 +1,23 @@
+## [1.1.1](https://github.com/sheerlox/cron-comparison/compare/v1.1.0...v1.1.1) (2023-09-29)
+
+### 🐛 Bug Fixes
+
+- **libs:** pin dependencies ([#8](https://github.com/sheerlox/cron-comparison/issues/8)) [skip ci] ([edf04cb](https://github.com/sheerlox/cron-comparison/commit/edf04cb2a571c5f58c67d4c7af1e93ebdd28423a))
+- **libs:** update benchmarked libs ([#10](https://github.com/sheerlox/cron-comparison/issues/10)) ([33f7450](https://github.com/sheerlox/cron-comparison/commit/33f745040ce91f191527a8f9be939e00acab2f22))
+
+### ⚙️ Continuous Integrations
+
+- **action:** run tests on PRs to main branch ([abd8e29](https://github.com/sheerlox/cron-comparison/commit/abd8e2992df57674aeea3c456a005a017cd88467))
+- **action:** update actions/checkout action to v4 ([#5](https://github.com/sheerlox/cron-comparison/issues/5)) ([a9dae67](https://github.com/sheerlox/cron-comparison/commit/a9dae676487541268f249402007dba24fa3858de))
+- **renovate:** update benchmarked libraries group config ([6bf099e](https://github.com/sheerlox/cron-comparison/commit/6bf099e0a285f9a00bb19cc06da462acdf911b60))
+
+### ♻️ Chores
+
+- add libs label to renovate config ([e13852f](https://github.com/sheerlox/cron-comparison/commit/e13852fe63e5d34f65267adb87eded8df49475e3))
+- configure renovate ([3a435b6](https://github.com/sheerlox/cron-comparison/commit/3a435b6864f36e66e9ea8e674d1029ea57b1a3c9))
+- **deps:** pin dependencies ([#2](https://github.com/sheerlox/cron-comparison/issues/2)) ([49129e0](https://github.com/sheerlox/cron-comparison/commit/49129e01a18eb5fddcf6a0672094719b3b661123))
+- **deps:** update [@semantic-release](https://github.com/semantic-release) packages ([8b20f75](https://github.com/sheerlox/cron-comparison/commit/8b20f75768b29f968b6fa26c96d2a91005a72174))
+
 ## [1.1.0](https://github.com/sheerlox/cron-comparison/compare/v1.0.2...v1.1.0) (2023-09-29)
 
 ### ✨ Features
