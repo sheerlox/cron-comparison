@@ -12,9 +12,11 @@
       ],
       "groupName": "Benchmarked Libs",
       "groupSlug": "benchmarked-libs",
+      "addLabels": ["benchmarked-libs"],
       "semanticCommitType": "fix",
       "semanticCommitScope": "libs",
-      "addLabels": ["libs"]
+      "rangeStrategy": "pin",
+      "separateMajorMinor": false
     }
   ]
 }
