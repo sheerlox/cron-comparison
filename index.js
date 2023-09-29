@@ -61,7 +61,7 @@ for (const pattern of [
   for (const report of reports) {
     if (report.result) {
       correct[report.result] = correct[report.result]
-        ? correct[report.result]++
+        ? correct[report.result] + 1
         : 1;
       if (correct[report.result] > bestCount) {
         bestCount = correct[report.result];
