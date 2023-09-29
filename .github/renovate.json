@@ -13,7 +13,8 @@
       "groupName": "Benchmarked Libs",
       "groupSlug": "benchmarked-libs",
       "semanticCommitType": "fix",
-      "semanticCommitScope": "libs"
+      "semanticCommitScope": "libs",
+      "addLabels": ["libs"]
     }
   ]
 }
