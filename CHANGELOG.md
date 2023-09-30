@@ -1,3 +1,9 @@
+## [1.2.2](https://github.com/sheerlox/cron-comparison/compare/v1.2.1...v1.2.2) (2023-09-30)
+
+### 🐛 Bug Fixes
+
+- **libs:** update benchmarked libs ([#11](https://github.com/sheerlox/cron-comparison/issues/11)) ([bde6ac1](https://github.com/sheerlox/cron-comparison/commit/bde6ac187a57e64ecd42740d3ce200efa6b2ff85))
+
 ## [1.2.1](https://github.com/sheerlox/cron-comparison/compare/v1.2.0...v1.2.1) (2023-09-30)
 
 ### 📚 Documentation
