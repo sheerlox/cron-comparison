@@ -1,3 +1,13 @@
+## [1.2.1](https://github.com/sheerlox/cron-comparison/compare/v1.2.0...v1.2.1) (2023-09-30)
+
+### 📚 Documentation
+
+- **readme:** update template ([7fe4770](https://github.com/sheerlox/cron-comparison/commit/7fe4770bd4b0c7f9043bcd3f5ec444be63df6b03))
+
+### ⚙️ Continuous Integrations
+
+- **action:** use CI token to bypass branch protection ([7449003](https://github.com/sheerlox/cron-comparison/commit/7449003f034ac252b1624f4b9cffe7a1af194b9c))
+
 ## [1.2.0](https://github.com/sheerlox/cron-comparison/compare/v1.1.1...v1.2.0) (2023-09-29)
 
 ### ✨ Features
