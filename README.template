@@ -1,14 +1,14 @@
 # cron-comparison
 
-Test and benchmark of all javascript cron implementations
+Automated benchmark of all JavaScript `cron` implementations, using [Renovate](https://github.com/renovatebot/renovate) and [GitHub Actions](https://docs.github.com/en/actions).
 
-## Running
+## Running locally
 
-Run tests and show output in console
+Run benchmark and show output in console
 
-`npm run test`
+`npm run benchmark`
 
-Run tests and update readme with results
+Run benchmark and update readme with results
 
 `npm run update-readme`
 
