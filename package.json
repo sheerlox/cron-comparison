@@ -22,7 +22,7 @@
     "node-schedule": "2.1.1"
   },
   "devDependencies": {
-    "@insurgentlab/conventional-changelog-preset": "6.0.4",
+    "@insurgentlab/conventional-changelog-preset": "7.0.0",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/commit-analyzer": "10.0.4",
     "@semantic-release/exec": "6.0.3",
