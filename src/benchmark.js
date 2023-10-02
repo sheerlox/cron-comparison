@@ -6,7 +6,11 @@ const summary = {};
 
 console.log("Tests performed at " + new Date().toISOString() + "\n");
 
-console.log("Tested libraries:\n");
+const npmTrendsLink = `https://npmtrends.com/${schedulers
+  .map(({ id }) => id)
+  .join("-vs-")}`;
+
+console.log(`Tested libraries ([npm trends](${npmTrendsLink})):\n`);
 for (const scheduler of schedulers) {
   console.log(
     `- [${scheduler.id}](${scheduler.url}) \`v${scheduler.version}\``,
