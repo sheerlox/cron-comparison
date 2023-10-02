@@ -1,3 +1,13 @@
+## [1.3.0](https://github.com/sheerlox/cron-comparison/compare/v1.2.3...v1.3.0) (2023-10-02)
+
+### ✨ Features
+
+- add npm trends link ([7e22f93](https://github.com/sheerlox/cron-comparison/commit/7e22f93b09c101b810beff3d1f59a2035d322638))
+
+### ♻️ Chores
+
+- **deps:** update semantic-release related packages ([#13](https://github.com/sheerlox/cron-comparison/issues/13)) ([6a2a0bd](https://github.com/sheerlox/cron-comparison/commit/6a2a0bddd7dd5bddf808ed5e38fd8b818fb2073e))
+
 ## [1.2.3](https://github.com/sheerlox/cron-comparison/compare/v1.2.2...v1.2.3) (2023-09-30)
 
 ### 📚 Documentation
