@@ -10,13 +10,10 @@
         "node-cron",
         "node-schedule"
       ],
-      "groupName": "Benchmarked Libs",
-      "groupSlug": "benchmarked-libs",
       "addLabels": ["benchmarked-libs"],
       "semanticCommitType": "fix",
       "semanticCommitScope": "libs",
-      "rangeStrategy": "pin",
-      "separateMajorMinor": false
+      "rangeStrategy": "pin"
     }
   ]
 }
