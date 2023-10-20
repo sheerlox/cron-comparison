@@ -1,3 +1,19 @@
+## [1.3.3](https://github.com/sheerlox/cron-comparison/compare/v1.3.2...v1.3.3) (2023-10-20)
+
+### 🐛 Bug Fixes
+
+- **libs:** update dependency croner to v7.0.3 ([#21](https://github.com/sheerlox/cron-comparison/issues/21)) ([2240b50](https://github.com/sheerlox/cron-comparison/commit/2240b50638f9c71a1dfcdb1ed628e8953ffdecb2))
+
+### ⚙️ Continuous Integrations
+
+- **action:** update actions/checkout digest to b4ffde6 ([#20](https://github.com/sheerlox/cron-comparison/issues/20)) ([7cb831b](https://github.com/sheerlox/cron-comparison/commit/7cb831b1413f143a69e6f4bbb314ff7ee67929ef))
+
+### ♻️ Chores
+
+- **deps:** lock file maintenance ([5ee28c4](https://github.com/sheerlox/cron-comparison/commit/5ee28c47deedcd74b368f9ef42862f17527b22e3))
+- **deps:** update dependency lint-staged to v15 ([#18](https://github.com/sheerlox/cron-comparison/issues/18)) ([a425099](https://github.com/sheerlox/cron-comparison/commit/a425099ff59b7739af6e5edb35072356d8fdd39e))
+- **deps:** update dependency lint-staged to v15.0.1 ([ad0da1d](https://github.com/sheerlox/cron-comparison/commit/ad0da1d7c249878780ef84f3ffeaf01f6e239e59))
+
 ## [1.3.2](https://github.com/sheerlox/cron-comparison/compare/v1.3.1...v1.3.2) (2023-10-12)
 
 ### 🐛 Bug Fixes
