@@ -1,3 +1,13 @@
+## [1.3.4](https://github.com/sheerlox/cron-comparison/compare/v1.3.3...v1.3.4) (2023-10-22)
+
+### 🐛 Bug Fixes
+
+- **libs:** update dependency cron to v3.1.2 ([#23](https://github.com/sheerlox/cron-comparison/issues/23)) ([fdb0e68](https://github.com/sheerlox/cron-comparison/commit/fdb0e68468f7df6b9d0db35c2efd4ba4cbd91374))
+
+### ♻️ Chores
+
+- **deps:** update dependency lint-staged to v15.0.2 ([#22](https://github.com/sheerlox/cron-comparison/issues/22)) ([7acc304](https://github.com/sheerlox/cron-comparison/commit/7acc3042c846eb841575d4a9ee471b6a9a3e9a9f))
+
 ## [1.3.3](https://github.com/sheerlox/cron-comparison/compare/v1.3.2...v1.3.3) (2023-10-20)
 
 ### 🐛 Bug Fixes
