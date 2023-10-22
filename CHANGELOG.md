@@ -1,3 +1,9 @@
+## [1.3.5](https://github.com/sheerlox/cron-comparison/compare/v1.3.4...v1.3.5) (2023-10-22)
+
+### 🐛 Bug Fixes
+
+- **libs:** update dependency cron to v3.1.3 ([#24](https://github.com/sheerlox/cron-comparison/issues/24)) ([9797193](https://github.com/sheerlox/cron-comparison/commit/9797193e1474fd6a9aba810863958b14626e461a))
+
 ## [1.3.4](https://github.com/sheerlox/cron-comparison/compare/v1.3.3...v1.3.4) (2023-10-22)
 
 ### 🐛 Bug Fixes
