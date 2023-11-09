@@ -24,7 +24,7 @@
   "devDependencies": {
     "@insurgentlab/conventional-changelog-preset": "7.0.0",
     "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/commit-analyzer": "11.0.0",
+    "@semantic-release/commit-analyzer": "11.1.0",
     "@semantic-release/exec": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "husky": "8.0.3",
