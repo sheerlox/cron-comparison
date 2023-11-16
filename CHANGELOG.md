@@ -1,3 +1,9 @@
+## [1.3.11](https://github.com/sheerlox/cron-comparison/compare/v1.3.10...v1.3.11) (2023-11-16)
+
+### 🐛 Bug Fixes
+
+- **libs:** update dependency node-cron to v3.0.3 ([#37](https://github.com/sheerlox/cron-comparison/issues/37)) ([ae123c3](https://github.com/sheerlox/cron-comparison/commit/ae123c3180bef519be15ae44db1dab6e1654b5c7))
+
 ## [1.3.10](https://github.com/sheerlox/cron-comparison/compare/v1.3.9...v1.3.10) (2023-11-16)
 
 ### 🐛 Bug Fixes
