@@ -1,3 +1,18 @@
+## [1.3.10](https://github.com/sheerlox/cron-comparison/compare/v1.3.9...v1.3.10) (2023-11-16)
+
+### 🐛 Bug Fixes
+
+- **libs:** update dependency croner to v7.0.5 ([#39](https://github.com/sheerlox/cron-comparison/issues/39)) ([c9e9ed2](https://github.com/sheerlox/cron-comparison/commit/c9e9ed208141e77df804d84a00e2a88a0b50a45c))
+
+### ♻️ Chores
+
+- **deps:** lock file maintenance ([1e2f6a8](https://github.com/sheerlox/cron-comparison/commit/1e2f6a8b1edc561ada487b3cfac19f33f1d0fc39))
+- **deps:** lock file maintenance ([c5d6f28](https://github.com/sheerlox/cron-comparison/commit/c5d6f2821df5fce9a102c5ddd59e9f98f1885a1f))
+- **deps:** update dependency [@semantic-release](https://github.com/semantic-release)/commit-analyzer to v11.1.0 ([52fbd4c](https://github.com/sheerlox/cron-comparison/commit/52fbd4caf81b0c99232afd38728a3348f2b377e6))
+- **deps:** update dependency lint-staged to v15.1.0 ([#40](https://github.com/sheerlox/cron-comparison/issues/40)) ([59818c1](https://github.com/sheerlox/cron-comparison/commit/59818c16259b6b61ba8f5493905c58181e5ca82b))
+- **deps:** update dependency semantic-release to v22.0.6 ([7aae7cc](https://github.com/sheerlox/cron-comparison/commit/7aae7cc8f2e7f6a88ef57296e91f12b1eca9b2aa))
+- **deps:** update dependency semantic-release to v22.0.7 ([35a22e9](https://github.com/sheerlox/cron-comparison/commit/35a22e9a2b439cb6e4a6e198f1d79e4b2921ffbd))
+
 ## [1.3.9](https://github.com/sheerlox/cron-comparison/compare/v1.3.8...v1.3.9) (2023-11-02)
 
 ### 🐛 Bug Fixes
