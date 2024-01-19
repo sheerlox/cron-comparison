@@ -1,3 +1,32 @@
+## [1.3.12](https://github.com/sheerlox/cron-comparison/compare/v1.3.11...v1.3.12) (2024-01-19)
+
+### 🐛 Bug Fixes
+
+- **libs:** update dependency croner to v8 ([#49](https://github.com/sheerlox/cron-comparison/issues/49)) ([bf434a0](https://github.com/sheerlox/cron-comparison/commit/bf434a0553ef34423124f89159b1740434ed3ac0))
+
+### ⚙️ Continuous Integrations
+
+- **action:** run linting in test workflow ([8ce5b59](https://github.com/sheerlox/cron-comparison/commit/8ce5b5904c4501bab1a5eab8cb48353549605cc9))
+
+### ♻️ Chores
+
+- **deps:** lock file maintenance ([49fb29c](https://github.com/sheerlox/cron-comparison/commit/49fb29c911cfd9f00da7782f81f83fee19787974))
+- **deps:** lock file maintenance ([54a6144](https://github.com/sheerlox/cron-comparison/commit/54a6144999d945f130b448fc07087c47e546bebd))
+- **deps:** lock file maintenance ([b35fb32](https://github.com/sheerlox/cron-comparison/commit/b35fb32daa00fc0ebb2b2924d5424b85ac8ee75a))
+- **deps:** lock file maintenance ([ac5729a](https://github.com/sheerlox/cron-comparison/commit/ac5729ad3e80de6c4e177db4eccf978a2c8e833a))
+- **deps:** lock file maintenance ([fe056ca](https://github.com/sheerlox/cron-comparison/commit/fe056ca2d207acddefac2196714717b1f7041652))
+- **deps:** lock file maintenance ([413d28d](https://github.com/sheerlox/cron-comparison/commit/413d28d230df5b60c54d24970b467259bd6a082b))
+- **deps:** lock file maintenance ([c088a4c](https://github.com/sheerlox/cron-comparison/commit/c088a4c7cd35c0ebb95e13e27cf782a98dc3c37d))
+- **deps:** lock file maintenance ([854c104](https://github.com/sheerlox/cron-comparison/commit/854c1043faba3f58d2e6ea2a1e1f600596fa9953))
+- **deps:** lock file maintenance ([d4fe318](https://github.com/sheerlox/cron-comparison/commit/d4fe3183bbc2e37e64fc941da86e882b7a095cf9))
+- **deps:** update dependency lint-staged to v15.2.0 ([801b187](https://github.com/sheerlox/cron-comparison/commit/801b1875df51c31057fe2025f0df8d88768523b4))
+- **deps:** update dependency prettier to v3.1.0 ([#41](https://github.com/sheerlox/cron-comparison/issues/41)) ([b5850ce](https://github.com/sheerlox/cron-comparison/commit/b5850cecf8fd5714fac346df75fa4294729e3128))
+- **deps:** update dependency prettier to v3.1.1 ([4cee3da](https://github.com/sheerlox/cron-comparison/commit/4cee3da1607b1d07aa5bc51a6c86ccb34a862e6b))
+- **deps:** update dependency prettier to v3.2.2 ([b6cb0fd](https://github.com/sheerlox/cron-comparison/commit/b6cb0fd0fbdbcf3ab7874e036bfeb8f6388b8a7f))
+- **deps:** update dependency semantic-release to v22.0.10 ([f14018f](https://github.com/sheerlox/cron-comparison/commit/f14018fb8334923d18b3754055c685e93edb389d))
+- **deps:** update dependency semantic-release to v22.0.12 ([9ee48aa](https://github.com/sheerlox/cron-comparison/commit/9ee48aa8292d5119e8a34f6aac95fc143b25bb87))
+- **deps:** update dependency semantic-release to v22.0.8 ([#43](https://github.com/sheerlox/cron-comparison/issues/43)) ([ad3ebc8](https://github.com/sheerlox/cron-comparison/commit/ad3ebc8c9a0551ad25e6e9490753a163e8161d7d))
+
 ## [1.3.11](https://github.com/sheerlox/cron-comparison/compare/v1.3.10...v1.3.11) (2023-11-16)
 
 ### 🐛 Bug Fixes
