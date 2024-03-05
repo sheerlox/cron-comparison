@@ -18,7 +18,7 @@
   "dependencies": {
     "benchmark": "^2.1.4",
     "cron": "3.1.6",
-    "croner": "8.0.0",
+    "croner": "8.0.1",
     "cronosjs": "1.7.1",
     "node-cron": "3.0.3",
     "node-schedule": "2.1.1"
