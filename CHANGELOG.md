@@ -1,3 +1,23 @@
+## [1.3.13](https://github.com/sheerlox/cron-comparison/compare/v1.3.12...v1.3.13) (2024-03-07)
+
+### 🐛 Bug Fixes
+
+- **libs:** update dependency croner to v8.0.1 ([#70](https://github.com/sheerlox/cron-comparison/issues/70)) ([38cfd76](https://github.com/sheerlox/cron-comparison/commit/38cfd7671d9061f2bfb7a685ae77a2989a90f619))
+
+### ♻️ Chores
+
+- **deps:** lock file maintenance ([3bae4f2](https://github.com/sheerlox/cron-comparison/commit/3bae4f22b358daa77d56b6ef78273082114d2c23))
+- **deps:** lock file maintenance ([99ac5d0](https://github.com/sheerlox/cron-comparison/commit/99ac5d07dc5db11f086f98582b8f375c892cb0b4))
+- **deps:** lock file maintenance ([cbee65a](https://github.com/sheerlox/cron-comparison/commit/cbee65a380174b1163eede689b8ebe6e029cce21))
+- **deps:** lock file maintenance ([ab121d8](https://github.com/sheerlox/cron-comparison/commit/ab121d83982e6bc5d29e4bfc50f85732a82e2f70))
+- **deps:** lock file maintenance ([16a3b8a](https://github.com/sheerlox/cron-comparison/commit/16a3b8a883f1457ff459c98bf1a7812a398a9294))
+- **deps:** lock file maintenance ([c714d98](https://github.com/sheerlox/cron-comparison/commit/c714d987b6cfbd927ebe966325ec4ef682ffd62e))
+- **deps:** lock file maintenance ([34b8840](https://github.com/sheerlox/cron-comparison/commit/34b8840ef30c00bd58a741c1b8bfda564a832ac4))
+- **deps:** update dependency lint-staged to v15.2.1 ([0116808](https://github.com/sheerlox/cron-comparison/commit/011680861cdd8132e3e3faf179134757d8f8bea9))
+- **deps:** update dependency lint-staged to v15.2.2 ([437e724](https://github.com/sheerlox/cron-comparison/commit/437e724559b24c927be360b654b04b0db068fd5c))
+- **deps:** update dependency prettier to v3.2.4 ([2611ced](https://github.com/sheerlox/cron-comparison/commit/2611ced23d8e070c56114dcbc197a9ea1d17bc7d))
+- **deps:** update dependency prettier to v3.2.5 ([3d490f6](https://github.com/sheerlox/cron-comparison/commit/3d490f616f24e80d707c861bba5aedf27e88d5f0))
+
 ## [1.3.12](https://github.com/sheerlox/cron-comparison/compare/v1.3.11...v1.3.12) (2024-01-19)
 
 ### 🐛 Bug Fixes
