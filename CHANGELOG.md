@@ -1,3 +1,22 @@
+## [1.3.14](https://github.com/sheerlox/cron-comparison/compare/v1.3.13...v1.3.14) (2024-04-09)
+
+### 🐛 Bug Fixes
+
+- **libs:** update dependency cron to v3.1.7 ([#77](https://github.com/sheerlox/cron-comparison/issues/77)) ([c590421](https://github.com/sheerlox/cron-comparison/commit/c590421a5682eaf8c17faab2e1765b958ed13005))
+
+### ⚙️ Continuous Integrations
+
+- **action:** update actions/setup-node digest to 60edb5d ([#52](https://github.com/sheerlox/cron-comparison/issues/52)) ([f3aa81e](https://github.com/sheerlox/cron-comparison/commit/f3aa81e7e7de08116556bcb6ba0a03035190eecd))
+
+### ♻️ Chores
+
+- **deps:** lock file maintenance ([8c8a5c4](https://github.com/sheerlox/cron-comparison/commit/8c8a5c4b3c0ba24ca07543e1544c7e4ef3511c73))
+- **deps:** lock file maintenance ([d0c77c5](https://github.com/sheerlox/cron-comparison/commit/d0c77c5888aa67261a26c6563019ff46d9f5fa82))
+- **deps:** lock file maintenance ([a7ed321](https://github.com/sheerlox/cron-comparison/commit/a7ed321de783248422822d9621042ef1877bedf3))
+- **deps:** lock file maintenance ([7ed1865](https://github.com/sheerlox/cron-comparison/commit/7ed186576ea41d3efd2def9d74c3849daeb2b093))
+- **deps:** update dependency husky to v9 ([#62](https://github.com/sheerlox/cron-comparison/issues/62)) ([3bc9857](https://github.com/sheerlox/cron-comparison/commit/3bc98574af9a59ec8ffdd227dc693bdd00ca1939))
+- **deps:** update semantic-release related packages ([#57](https://github.com/sheerlox/cron-comparison/issues/57)) ([717f3fe](https://github.com/sheerlox/cron-comparison/commit/717f3fe91b65b8adafea75794337d6c96ef0005f))
+
 ## [1.3.13](https://github.com/sheerlox/cron-comparison/compare/v1.3.12...v1.3.13) (2024-03-07)
 
 ### 🐛 Bug Fixes
