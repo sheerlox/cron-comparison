@@ -11,7 +11,7 @@
     "benchmark": "node --no-warnings src/benchmark.js",
     "update-readme": "(cp README.template README.md || copy README.template README.md) && npm run benchmark >> README.md",
     "test": "node src/test.js",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "author": "",
   "license": "MIT",
