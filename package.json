@@ -26,13 +26,13 @@
   "devDependencies": {
     "@insurgentlab/conventional-changelog-preset": "7.0.0",
     "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/commit-analyzer": "11.1.0",
+    "@semantic-release/commit-analyzer": "12.0.0",
     "@semantic-release/exec": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "husky": "8.0.3",
     "lint-staged": "15.2.2",
     "prettier": "3.2.5",
-    "semantic-release": "22.0.12"
+    "semantic-release": "23.0.7"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
