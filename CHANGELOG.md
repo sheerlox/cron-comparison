@@ -1,3 +1,9 @@
+## [1.3.15](https://github.com/sheerlox/cron-comparison/compare/v1.3.14...v1.3.15) (2024-04-13)
+
+### 🐛 Bug Fixes
+
+- **libs:** update dependency croner to v8.0.2 ([#78](https://github.com/sheerlox/cron-comparison/issues/78)) ([6a19551](https://github.com/sheerlox/cron-comparison/commit/6a19551a5dc9ac229cfcb7d930dee2760d78346a))
+
 ## [1.3.14](https://github.com/sheerlox/cron-comparison/compare/v1.3.13...v1.3.14) (2024-04-09)
 
 ### 🐛 Bug Fixes
