@@ -1,3 +1,22 @@
+## [1.3.17](https://github.com/sheerlox/cron-comparison/compare/v1.3.16...v1.3.17) (2024-08-17)
+
+### 🐛 Bug Fixes
+
+- **libs:** update dependency croner to v8.1.1 ([#114](https://github.com/sheerlox/cron-comparison/issues/114)) ([000df98](https://github.com/sheerlox/cron-comparison/commit/000df9810ad188a3fa7adab76909e1397ecb0e62))
+
+### ♻️ Chores
+
+- **deps:** lock file maintenance ([77c3ebb](https://github.com/sheerlox/cron-comparison/commit/77c3ebbd85c8f474c8cd093dfdb8e94a7eb77ea1))
+- **deps:** lock file maintenance ([749d727](https://github.com/sheerlox/cron-comparison/commit/749d7271f2d79bca7136aa3ed4ff4ff829312967))
+- **deps:** lock file maintenance ([39f974f](https://github.com/sheerlox/cron-comparison/commit/39f974f04356c9b4bacfded4d8b73c9e4b5d5693))
+- **deps:** lock file maintenance ([d3a804e](https://github.com/sheerlox/cron-comparison/commit/d3a804e8a6dd676eb7f3cdbc4f4ab88ba10e8721))
+- **deps:** lock file maintenance ([8b08256](https://github.com/sheerlox/cron-comparison/commit/8b0825670ea6c469f83cb199033c1fea0970570d))
+- **deps:** update dependency husky to v9.1.1 ([94ca3ab](https://github.com/sheerlox/cron-comparison/commit/94ca3ab0e048074a7dd2ef00b429905b7f482ea9))
+- **deps:** update dependency husky to v9.1.3 ([6b0ab51](https://github.com/sheerlox/cron-comparison/commit/6b0ab5125d866c08f3af47f49acedcf24148969e))
+- **deps:** update dependency husky to v9.1.4 ([40fb11b](https://github.com/sheerlox/cron-comparison/commit/40fb11bb09380ff3e5986be9b9f2e7fb9ab7efce))
+- **deps:** update dependency lint-staged to v15.2.8 ([32f6a05](https://github.com/sheerlox/cron-comparison/commit/32f6a056f1c2c23b6db3046d511b66f1fb1bdd4a))
+- **deps:** update dependency prettier to v3.3.3 ([52a3fe7](https://github.com/sheerlox/cron-comparison/commit/52a3fe748dd5dc5de237efdcdbfbbe17f56b13a1))
+
 ## [1.3.16](https://github.com/sheerlox/cron-comparison/compare/v1.3.15...v1.3.16) (2024-07-13)
 
 ### 🐛 Bug Fixes
