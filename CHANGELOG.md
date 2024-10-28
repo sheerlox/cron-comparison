@@ -1,3 +1,30 @@
+## [1.3.18](https://github.com/sheerlox/cron-comparison/compare/v1.3.17...v1.3.18) (2024-10-28)
+
+### 🐛 Bug Fixes
+
+- **libs:** update dependency croner to v8.1.2 ([#129](https://github.com/sheerlox/cron-comparison/issues/129)) ([9f5ab34](https://github.com/sheerlox/cron-comparison/commit/9f5ab3469f2d4b4cdb4c1e44f20c421d09c8b725))
+
+### ♻️ Chores
+
+- **deps:** lock file maintenance ([c31882b](https://github.com/sheerlox/cron-comparison/commit/c31882ba9f56157f9725c482ee903ec3ad8286e3))
+- **deps:** lock file maintenance ([e77945b](https://github.com/sheerlox/cron-comparison/commit/e77945b2693b0404b3b924d458369f8ea92cf6c1))
+- **deps:** lock file maintenance ([bbf8613](https://github.com/sheerlox/cron-comparison/commit/bbf8613753bccf98a1eeacaf8990e71de85975ed))
+- **deps:** lock file maintenance ([4f177f2](https://github.com/sheerlox/cron-comparison/commit/4f177f22edfb7ff61159f3ba77eb199a4a8c2c2b))
+- **deps:** lock file maintenance ([471fcde](https://github.com/sheerlox/cron-comparison/commit/471fcdeb1202069fd3aa9a8327f9e4320803502c))
+- **deps:** lock file maintenance ([2c549b6](https://github.com/sheerlox/cron-comparison/commit/2c549b69c758ecc0bb7a7795bafddf59aa1fe4db))
+- **deps:** lock file maintenance ([116d2e3](https://github.com/sheerlox/cron-comparison/commit/116d2e36515e63a00af0320eda322f1e79b46989))
+- **deps:** lock file maintenance ([d905fb6](https://github.com/sheerlox/cron-comparison/commit/d905fb6007277899804bb6d6d50e45586f23d5ea))
+- **deps:** lock file maintenance ([eb8afff](https://github.com/sheerlox/cron-comparison/commit/eb8afffa7e66711a5286246160602be26131a5aa))
+- **deps:** lock file maintenance ([1647753](https://github.com/sheerlox/cron-comparison/commit/164775385a85a3a28db30c66651687cbad70e7ef))
+- **deps:** update dependency husky to v9.1.5 ([2762471](https://github.com/sheerlox/cron-comparison/commit/2762471112bdc9eba44485fb371280db9d180cec))
+- **deps:** update dependency husky to v9.1.6 ([3f4ad3b](https://github.com/sheerlox/cron-comparison/commit/3f4ad3b7a45a260a15db39b833f45341148179ed))
+- **deps:** update dependency lint-staged to v15.2.10 ([901d3b9](https://github.com/sheerlox/cron-comparison/commit/901d3b9f0d4257b5b7fed7e1977f384bf7ce30bd))
+- **deps:** update dependency lint-staged to v15.2.9 ([3773ecc](https://github.com/sheerlox/cron-comparison/commit/3773ecc133aeac1b28e22cbb067d2846cd6e4f5d))
+- **deps:** update dependency semantic-release to v24.1.0 ([9007ccc](https://github.com/sheerlox/cron-comparison/commit/9007ccc371c2386f70a2a4f0dcadd1be4df6f137))
+- **deps:** update dependency semantic-release to v24.1.1 ([f35f3d1](https://github.com/sheerlox/cron-comparison/commit/f35f3d19dc6fcac9af92f9e22b5729de00fc2c9c))
+- **deps:** update dependency semantic-release to v24.1.2 ([98b2a91](https://github.com/sheerlox/cron-comparison/commit/98b2a91b8e5e90cf1fc5dd7a0d131b20a6e1fbd6))
+- **deps:** update dependency semantic-release to v24.1.3 ([74f7d94](https://github.com/sheerlox/cron-comparison/commit/74f7d94c122ad43a8108a5a439b5eef177220304))
+
 ## [1.3.17](https://github.com/sheerlox/cron-comparison/compare/v1.3.16...v1.3.17) (2024-08-17)
 
 ### 🐛 Bug Fixes
