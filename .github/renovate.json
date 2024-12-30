@@ -3,17 +3,17 @@
   "extends": ["github>insurgent-lab/.github//renovate/base"],
   "packageRules": [
     {
-      "matchPackagePatterns": [
-        "cron",
-        "croner",
-        "cronosjs",
-        "node-cron",
-        "node-schedule"
-      ],
       "addLabels": ["benchmarked-libs"],
       "semanticCommitType": "fix",
       "semanticCommitScope": "libs",
-      "rangeStrategy": "pin"
+      "rangeStrategy": "pin",
+      "matchPackageNames": [
+        "/cron/",
+        "/croner/",
+        "/cronosjs/",
+        "/node-cron/",
+        "/node-schedule/"
+      ]
     }
   ]
 }
