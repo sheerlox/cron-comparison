@@ -1,4 +1,4 @@
-import PackageJSON from "../../package.json" assert { type: "json" };
+import PackageJSON from "../../package.json" with { type: "json" };
 
 import Cron from "./cron.js";
 import Croner from "./croner.js";
@@ -9,6 +9,7 @@ import NodeSchedule from "./node-schedule.js";
 const subjects = [Cron, Croner, CronosJS, NodeCron, NodeSchedule];
 
 for (const subject of subjects) {
+  console.debug(`Testing package ${subject.id}`);
   subject.version = PackageJSON.dependencies[subject.id];
   if (subject.version == null) {
     throw new Error(
@@ -16,5 +17,7 @@ for (const subject of subjects) {
     );
   }
 }
+
+console.debug("OK");
 
 export default subjects;
