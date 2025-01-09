@@ -1,3 +1,26 @@
+## [1.3.20](https://github.com/sheerlox/cron-comparison/compare/v1.3.19...v1.3.20) (2025-01-09)
+
+### 🐛 Bug Fixes
+
+- **libs:** update dependency cron to v3.3.2 ([#139](https://github.com/sheerlox/cron-comparison/issues/139)) ([deb302c](https://github.com/sheerlox/cron-comparison/commit/deb302cea52e6bcd3e68f5fa174bd8b99cbb0d75))
+
+### 🚨 Tests
+
+- migrate to mandatory import attributes syntax ([24b41a2](https://github.com/sheerlox/cron-comparison/commit/24b41a2b8acfb46969c8ae24b8be05958d7c2f80))
+
+### ⚙️ Continuous Integrations
+
+- **action:** update actions/checkout action to v4.2.2 ([#85](https://github.com/sheerlox/cron-comparison/issues/85)) ([8b92815](https://github.com/sheerlox/cron-comparison/commit/8b92815ce371111043af365df5572546575eb896))
+- **action:** update actions/setup-node action to v4.1.0 ([#84](https://github.com/sheerlox/cron-comparison/issues/84)) ([9065305](https://github.com/sheerlox/cron-comparison/commit/906530549ddfc5faa4c0c73d376f8efdf7b144d1))
+
+### ♻️ Chores
+
+- **deps:** lock file maintenance ([907af17](https://github.com/sheerlox/cron-comparison/commit/907af170d1803b4fe3e525040cb1b67188c4c09b))
+- **deps:** lock file maintenance ([#140](https://github.com/sheerlox/cron-comparison/issues/140)) ([9ef32e7](https://github.com/sheerlox/cron-comparison/commit/9ef32e71451c99eedb919fcbed905d8566fb0803))
+- **deps:** lock file maintenance ([#145](https://github.com/sheerlox/cron-comparison/issues/145)) ([6c55f08](https://github.com/sheerlox/cron-comparison/commit/6c55f0846848c7f373bced31f305731d73e6ea8c))
+- **deps:** update dependency lint-staged to v15.3.0 ([#143](https://github.com/sheerlox/cron-comparison/issues/143)) ([c7e2f0c](https://github.com/sheerlox/cron-comparison/commit/c7e2f0cd7d3dbe864edf4827199b21719a29ed4b))
+- **deps:** update dependency semantic-release to v24.2.0 ([1fb8700](https://github.com/sheerlox/cron-comparison/commit/1fb8700692869edbf7c6f8f2c66a185b8c88e635))
+
 ## [1.3.19](https://github.com/sheerlox/cron-comparison/compare/v1.3.18...v1.3.19) (2024-10-28)
 
 ### 🐛 Bug Fixes
